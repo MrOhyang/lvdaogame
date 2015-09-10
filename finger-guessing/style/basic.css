@@ -1,0 +1,145 @@
+/* Public */
+/* Public */
+body,
+form,
+tr,
+td,
+input,
+textarea,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-align: justify;
+}
+img {
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Variable */
+/* Variable */
+/* Function Class */
+/* Function Class */
+/* Class */
+/* Class */
+.d_clear {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+/* Code */
+body {
+  position: relative;
+  font-family: 'Microsoft Yahei';
+  /* 对战区 */
+  /* 出拳 */
+  /* 对方的出拳 */
+  /* 我的出拳 */
+}
+body #duishou_info,
+body #wofang_info {
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+body #duishou_info h1,
+body #wofang_info h1 {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+}
+body #duishou_info h1 em,
+body #wofang_info h1 em {
+  position: absolute;
+  right: 0.5rem;
+  font-size: 0.8rem;
+}
+body #duishou_info h2,
+body #wofang_info h2 {
+  text-align: center;
+  font-size: 0.8rem;
+}
+body #d_fight {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -7.5rem;
+  margin-left: -40%;
+  width: 80%;
+  height: 15rem;
+  line-height: 15rem;
+  text-align: center;
+  border: 1px #000 solid;
+  color: #AAA;
+}
+body #d_fight .whatfinger {
+  position: absolute;
+  left: 50%;
+  margin-left: -25%;
+  background-color: red;
+}
+body #d_fight .whatfinger img {
+  width: 50%;
+}
+body #d_fight #youfight {
+  top: 0;
+}
+body #d_fight #myfight {
+  bottom: 0;
+}
+body .finger {
+  position: fixed;
+  width: 100%;
+  background-color: #4F6;
+}
+body .finger table.table1 {
+  width: 100%;
+}
+body .finger table.table1 tbody tr td {
+  width: 33%;
+  text-align: center;
+}
+body .finger table.table1 tbody tr td img {
+  width: 60%;
+  max-width: 150px;
+  cursor: pointer;
+}
+body #you_finger {
+  top: 4rem;
+}
+body #my_finger {
+  bottom: 4rem;
+}
+body #wofang_info {
+  top: auto;
+  bottom: 1rem;
+}

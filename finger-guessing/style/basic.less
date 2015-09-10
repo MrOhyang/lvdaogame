@@ -1,0 +1,113 @@
+/* Public */
+@import url(reset.less);
+
+/* Variable */
+@import url(variable.less);
+
+/* Function Class */
+@import url(functioncss.less);
+
+/* Class */
+@import url(publicclass.less);
+.hide{
+	display: none;
+}
+
+/* Code */
+body{
+	position: relative;
+	font-family: 'Microsoft Yahei';
+
+#duishou_info,#wofang_info{
+	position: fixed;
+	top: 1rem;
+	width: 100%;
+	text-align: center;
+	h1{
+		position: relative;
+		text-align: center;
+		font-size: 1rem;
+		em{
+			position: absolute;
+			right: 0.5rem;
+			font-size: 0.8rem;
+		}
+	}
+	h2{
+		text-align: center;
+		font-size: 0.8rem;
+	}
+}
+
+#duishou_info{
+}
+
+/* 对战区 */
+#d_fight{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -7.5rem;
+	margin-left: -40%;
+	width: 80%;
+	height: 15rem;
+	line-height: 15rem;
+	text-align: center;
+	border: 1px #000 solid;
+	color: #AAA;
+	.whatfinger{
+		position: absolute;
+		left: 50%;
+		margin-left: -25%;
+		background-color: red;
+		img{
+			width: 50%;
+		}
+	}
+	#youfight{
+		top: 0;
+	}
+	#myfight{
+		bottom: 0;
+	}
+}
+
+/* 出拳 */
+.finger{
+	position: fixed;
+	width: 100%;
+	background-color: #4F6;
+	table.table1{
+		width: 100%;
+		tbody{
+			tr{
+				td{
+					width: 33%;
+					text-align: center;
+					img{
+						width: 60%;
+						max-width: 150px;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 对方的出拳 */
+#you_finger{
+	top: 4rem;
+}
+
+/* 我的出拳 */
+#my_finger{
+	bottom: 4rem;
+}
+
+#wofang_info{
+	top: auto;
+	bottom: 1rem;
+}
+
+}
