@@ -1,0 +1,105 @@
+/* Public */
+/* Public */
+body,
+form,
+tr,
+td,
+input,
+textarea,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-align: justify;
+}
+div {
+  position: relative;
+}
+img {
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Variable */
+/* Function Class */
+/* Function Class */
+/* Class */
+/* Class */
+.d_clear {
+  clear: both;
+}
+/* Code */
+* {
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+}
+#f_div {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 704px;
+  height: 454px;
+  border: 2px #000 solid;
+  /*background-image: url(../images/back.png);*/
+  background-color: #2A3;
+}
+#f_div canvas#cantop1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+#f_div canvas#cantop2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+}
+#f_div canvas#cantop3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 800;
+}
+#f_div canvas#cantop4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 700;
+}
+#f2_div {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 704px;
+  height: 454px;
+}
+#f2_div td {
+  padding: 4px 6px;
+}
